@@ -29,7 +29,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-
+  right: [
+    
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
